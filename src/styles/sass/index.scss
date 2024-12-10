@@ -336,6 +336,11 @@ main {
                 position: absolute;
                 top: -9999px;
                 left: -9999px;
+                // display: none;
+            }
+
+            tr {
+                font-size: 1rem;
             }
 
             tr.quest {
@@ -377,20 +382,25 @@ main {
             /*
         Label the data
         */
+
             td:nth-of-type(1):before {
                 content: "Location";
+                font-size: 1rem;
             }
 
             td:nth-of-type(2):before {
                 content: "Quest";
+                font-size: 1rem;
             }
 
             td:nth-of-type(3):before {
                 content: "Completed";
+                font-size: 1rem;
             }
 
             tr .extra-detail::before {
                 content: "Extra Detail";
+                font-size: 1rem;
             }
         }
     }
