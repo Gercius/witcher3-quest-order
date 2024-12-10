@@ -6,22 +6,12 @@
 
 html {
     height: 100%;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 body {
     min-height: 100%;
-    font-family: Arial, system-ui, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: inherit;
-    font-weight: inherit;
+    font-family: system-ui, sans-serif;
 }
 
 ol,

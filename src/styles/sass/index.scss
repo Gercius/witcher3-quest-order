@@ -284,6 +284,7 @@ main {
     table {
         width: 100%;
         border-collapse: collapse;
+        font-size: 16px;
 
         thead tr th {
             padding: 6px;
@@ -339,10 +340,6 @@ main {
                 // display: none;
             }
 
-            tr {
-                font-size: 1rem;
-            }
-
             tr.quest {
                 border-top: 1px solid;
             }
@@ -361,7 +358,6 @@ main {
                 border-bottom: 1px solid;
                 position: relative;
                 padding-left: 6.5rem;
-                font-size: 1rem;
             }
 
             td:before {
@@ -385,22 +381,18 @@ main {
 
             td:nth-of-type(1):before {
                 content: "Location";
-                font-size: 1rem;
             }
 
             td:nth-of-type(2):before {
                 content: "Quest";
-                font-size: 1rem;
             }
 
             td:nth-of-type(3):before {
                 content: "Completed";
-                font-size: 1rem;
             }
 
             tr .extra-detail::before {
                 content: "Extra Detail";
-                font-size: 1rem;
             }
         }
     }
