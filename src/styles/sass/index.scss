@@ -356,6 +356,7 @@ main {
                 border-bottom: 1px solid;
                 position: relative;
                 padding-left: 6.5rem;
+                font-size: 1rem;
             }
 
             td:before {
@@ -364,7 +365,7 @@ main {
                 /* Top/left values mimic padding */
                 top: 6px;
                 left: 6px;
-                width: 45%;
+                width: fit-content;
                 padding-right: 10px;
                 white-space: nowrap;
             }
